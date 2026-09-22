@@ -9,6 +9,8 @@ This repository contains the program/code of CSC SEC 201 (3rd Semester)
 
 - [Swapping Values - Call by Value and Call by Reference](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/5_Call_by_Value_Reference.cpp)
 
+- [Class Calculator](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/6_Calculator_Class_Overloading.cpp)
+
 - [Static Varibale & Methods (question 7)](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/7_Static_Var_Method_Count.cpp)
 
 - [Class A, Class B (question 8)](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/8_Class_A_and_B.cpp)
@@ -16,6 +18,8 @@ This repository contains the program/code of CSC SEC 201 (3rd Semester)
 - [Distance Class](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/9_Distance_Class.cpp)
 
 - [Employee Class](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/10_Employee_Class.cpp)
+
+
 
 <hr>
 
@@ -71,19 +75,19 @@ x86_64-w64-mingw32-g++ filename.cpp -o outputfile.exe
   clang++ --version
   ```
 
-* Compile the code:
+ Compile the code:
 
   ```bash
   clang++ filename.cpp -o outputfilename
   ```
 
-* Then run the program:
+ Then run the program:
 
   ```bash
   ./outputfilename
   ```
 
-* For example:
+ For example:
 
   ```bash
   clang++ Bank_Account.cpp -o bank
