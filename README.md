@@ -7,6 +7,8 @@ This repository contains the program/code of CSC SEC 201 (3rd Semester)
 
 - [Bank Account Class](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/3_Bank_Class.cpp)
 
+- [Student Class](https://github.com/04565/sec3/blob/main/Practical%20Questions%20Part%20I/4_Student_Class.cpp)
+
 - [Swapping Values - Call by Value and Call by Reference](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/5_Call_by_Value_Reference.cpp)
 
 - [Class Calculator](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/6_Calculator_Class_Overloading.cpp)

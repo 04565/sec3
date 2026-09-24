@@ -9,7 +9,7 @@ class Rectangle {
 
     public:
 
-    // function of set the length and breadth
+    // function to set the length and breadth
         void set_data(float l, float b){
             length = l;
             breadth = b;
@@ -24,11 +24,6 @@ class Rectangle {
             return (2*(length + breadth));
         }
 
-    // function to display area & perimeter
-        void display(){
-            cout << "\nArea of Rectangle: " << length*breadth << "\n";
-            cout << "Perimeter of Rectangle: " << 2 * (length + breadth) << "\n";
-        }
 };
 
 int main() {
@@ -36,24 +31,18 @@ int main() {
     float l,b;
     Rectangle rec;
 
-    cout << "Enter the length of rectangle: ";
-    cin >> l;
+    cout << "Enter the Length and Breadth of rectangle: " << endl;
+    cin >> l >> b;
 
-    if(l <= 0) {
-        cout << "\nLength must be greater than 0!\n";
-        return 0;
-    }
-
-    cout << "Enter the breadth of rectangle: ";
-    cin >> b;
-
-    if(b <= 0) {
-        cout << "\nBreadth must be greater than 0!\n";
+    if(l < 0 || b < 0) {
+        cout << "\nLength or Breadth must be greater than 0!\n";
         return 0;
     }
 
     rec.set_data(l,b);
-    rec.display();
+
+    cout << "Perimeter of rectangle: " << rec.get_perimeter() << endl;
+    cout << "Area of rectangle: " << rec.get_area() << endl;
 
     return 0;
 }
