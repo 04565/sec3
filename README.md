@@ -5,6 +5,8 @@ This repository contains the program/code of CSC SEC 201 (3rd Semester)
   ## Practical Questions Part I 
 - [Rectangle Class](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/1_Rectangle_Class.cpp)
 
+- [Vector Class](https://github.com/04565/sec3/blob/main/Practical%20Questions%20Part%20I/2_Vector_Class.cpp)
+
 - [Bank Account Class](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/3_Bank_Class.cpp)
 
 - [Student Class](https://github.com/04565/sec3/blob/main/Practical%20Questions%20Part%20I/4_Student_Class.cpp)
@@ -65,13 +67,13 @@ x86_64-w64-mingw32-g++ filename.cpp -o outputfile.exe
 
 ### On macOS
 
-* On macOS, you can use the Clang compiler that comes with Apple's Command Line Tools. First, install the Command Line Tools:
+- On macOS, you can use the Clang compiler that comes with Apple's Command Line Tools. First, install the Command Line Tools:
 
   ```bash
   xcode-select --install
   ```
 
-* Check if Clang is installed:
+ Check if Clang is installed:
 
   ```bash
   clang++ --version
@@ -101,7 +103,7 @@ x86_64-w64-mingw32-g++ filename.cpp -o outputfile.exe
   ./bank
   ```
 
-* You can also use `g++` if you have installed GCC using Homebrew:
+- You can also use `g++` if you have installed GCC using Homebrew:
 
   ```bash
   brew install gcc
