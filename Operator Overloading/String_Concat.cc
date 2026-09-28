@@ -15,8 +15,8 @@ public:
         str = s;
     }
 
-    MyStr operator+(MyStr rhs) {
-        return MyStr(str + " " + rhs.str);
+    string operator+(MyStr rhs) {
+        return str + " " + rhs.str;
     }
 
     void display() {
