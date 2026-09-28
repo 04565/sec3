@@ -45,7 +45,7 @@ int main(){
     cout << "Vector 2: ";
     v2.display();
 
-    cout << "Resulant Vector: ";
+    cout << "Resultant Vector: ";  
     resultant.display();
 
     return 0;

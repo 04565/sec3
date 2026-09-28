@@ -35,7 +35,7 @@ int main() {
     cin >> l >> b;
 
     if(l < 0 || b < 0) {
-        cout << "\nLength or Breadth must be greater than 0!\n";
+        cout << "\nInvalid Length or Breadth!\n";
         return 0;
     }
 

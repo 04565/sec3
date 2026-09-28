@@ -15,7 +15,7 @@ This repository contains the program/code of CSC SEC 201 (3rd Semester)
 
 - [Class Calculator](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/6_Calculator_Class_Overloading.cpp)
 
-- [Static Varibale & Methods (question 7)](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/7_Static_Var_Method_Count.cpp)
+- [Static Variable & Methods (question 7)](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/7_Static_Var_Method_Count.cpp)
 
 - [Class A, Class B (question 8)](https://github.com/4O21/sec3/blob/main/Practical%20Questions%20Part%20I/8_Class_A_and_B.cpp)
 
