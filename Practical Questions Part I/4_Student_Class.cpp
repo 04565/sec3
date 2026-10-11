@@ -10,6 +10,9 @@ class Student {
         string name;
     
     public:
+        /*
+            Note: Only 1 type of constructor is added following the question.
+        */
 
     // default constructor
         Student() {
@@ -21,22 +24,8 @@ class Student {
             cin.ignore();
             getline(cin, name);
 
-            cout << "Enter mark: ";
+            cout << "Enter total mark: ";
             cin >> marks;
-        }
-
-    // parameterised constructors
-
-        Student(int roll, string nm) {
-            roll_number = roll;
-            name = nm;
-            marks = 0.0;
-        }
-
-        Student(int rn, string nme, float mark)  {
-            roll_number = rn;
-            name = nme;
-            marks = mark;
         }
 
         void display() const {
@@ -48,12 +37,9 @@ class Student {
 };
 
 int main() {
+    
+    Student st;
+    st.display();
 
-    Student st1(123, "User 1", 67.67);
-    Student st2(123, "User 2");
-    Student st3;
-
-    st1.display();
-    st2.display();
-    st3.display();
+    return 0;
 }
