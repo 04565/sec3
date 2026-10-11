@@ -41,7 +41,7 @@ class Bank {
         cout << "Amount must be greater than 0\n";
       }else{
         balance = balance + amount;
-        cout << "Deposited Successfully!\n"
+        cout << "Deposited Successfully!\n";
       }
     }
 
@@ -57,7 +57,7 @@ class Bank {
         cout << "Insufficient Balance!\n";
       }else{
         balance = balance - amount;
-        cout << "Withdraw Successful!\n"
+        cout << "Withdraw Successful!\n";
       }
     }
 

@@ -55,4 +55,6 @@ int main() {
     cout << "\nValues of x and y in main() after swapping with Call by Reference:\n";
     cout << "x = " << x << "\n";
     cout << "y = " << y << "\n";
+
+    return 0;
 }

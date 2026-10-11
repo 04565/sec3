@@ -70,4 +70,6 @@ int main() {
     Employee::employee_count();
 
     compare_salary(e1, e2);
+
+    return 0;
 }
